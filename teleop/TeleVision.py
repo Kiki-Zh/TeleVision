@@ -1,5 +1,5 @@
 import time
-from vuer import Vuer
+from vuer import Vuer                  #这是主程序  为远程操作系统
 from vuer.events import ClientEvent
 from vuer.schemas import ImageBackground, group, Hands, WebRTCStereoVideoPlane, DefaultScene
 from multiprocessing import Array, Process, shared_memory, Queue, Manager, Event, Semaphore
